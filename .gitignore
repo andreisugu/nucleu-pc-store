@@ -1,0 +1,23 @@
+# Build
+backend/target/
+frontend/dist/
+frontend/node_modules/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Local configuration
+.env
+*.local
+
+# Materiale de curs (păstrate local, nu în repo)
+*.pptx
+ghid_proiect_tema_3_rest_api_spa_mobil.md
+
+# OS
+.DS_Store
+Thumbs.db

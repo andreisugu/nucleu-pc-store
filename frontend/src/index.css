@@ -1,0 +1,23 @@
+:root {
+  font-family: Arial, 'Helvetica Neue', sans-serif;
+  color: #22221f;
+  background: #f8f7f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #22221f;
+  --paper: #f8f7f4;
+  --accent: #d75b3b;
+  --line: #e4e2dc;
+  --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --display: Arial, 'Helvetica Neue', sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 360px; scroll-behavior: smooth; }
+body { margin: 0; min-width: 360px; }
+button, input, select { font: inherit; }
+button, a, select { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; text-decoration: none; }
+::selection { color: white; background: var(--accent); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
